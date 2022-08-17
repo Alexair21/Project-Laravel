@@ -1,0 +1,49 @@
+
+
+.content-wrapper {
+    background-image: url("../imagenes/registro.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slide 20s linear infinite;
+}
+
+
+
+
+
+
+#formulario{
+    backdrop-filter: blur(5px);
+    background-color: rgba(0,0,0,0.5);
+    width: 400px;
+    float:right ;
+}
+
+#titulo{
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.os-padding{
+    backdrop-filter: blur(1px);
+    background-color: rgba(50, 50, 50, 0.652);
+}
+
+.brand-link {
+    backdrop-filter: blur(1px);
+    background-color: rgba(50, 50, 50, 0.652);
+}
+
+font{
+    color: white;
+    font-size: 15px;
+}
+.main-header{
+    backdrop-filter: blur(1px);
+    background-color: rgba(50, 50, 50, 0.652);
+}

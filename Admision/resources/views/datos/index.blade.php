@@ -16,7 +16,7 @@
             <div class="row">
                 @foreach ($datos as $dato)
                     <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
+                        <div class="card mb-4">
                             <img class="card-img-top img-fluid" src="{{ asset($dato->imagen) }}"
                                 alt="{{ $dato->apellidos_nombres }}" width="100px" height="100px">
                             <div class="card-body" >
@@ -110,7 +110,7 @@
 
 @section('css')
     <link rel="stylesheet" href="/css/admin_custom.css">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/datos_index.css">
 @stop
 
 @section('js')

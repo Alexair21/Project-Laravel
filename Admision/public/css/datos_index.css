@@ -1,0 +1,56 @@
+.content-wrapper {
+    background-image: url("../imagenes/listado.png");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+#formulario{
+    backdrop-filter: blur(5px);
+    background-color: rgba(0,0,0,0.5);
+}
+
+#a{
+    backdrop-filter: blur(5px);
+    background-color: rgba(0,0,0,0.5);
+}
+
+#titulo{
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.jumbotron{
+    background-color: transparent;
+}
+
+
+.os-padding{
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.652);
+}
+
+.brand-link {
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.652);
+}
+
+font{
+    color: white;
+    font-size: 15px;
+}
+.main-header{
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.652);
+}
+
+.card-img-top{
+    background: transparent;
+
+}

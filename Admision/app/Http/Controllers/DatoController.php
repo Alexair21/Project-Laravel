@@ -75,6 +75,7 @@ class DatoController extends Controller
         $dato->email = $request->email;
 
 
+
         $dato->save();
         return redirect()->route('home');
     }

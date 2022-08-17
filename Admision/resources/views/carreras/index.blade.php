@@ -8,7 +8,7 @@
 
     <!--Solicitudes mostradas en cards-->
     <div class="container mt-5" >
-        <div class="jumbotron bg-light">
+        <div class="jumbotron">
 
 
             @foreach ($facultades as $facultad)
@@ -16,7 +16,7 @@
                 <div class="row">
                     @foreach ($facultad->carreras as $carrera)
                         <div class="col-md-4">
-                            <div class="card bg-dark mb-4 shadow-lg" style="height: 95%">
+                            <div class="card  mb-4 " style="height: 95%">
 
                                 <div class="card-body">
                                     <p class="card-text">
@@ -34,9 +34,9 @@
             @endforeach
         </div>
     </div>
+@stop
 
-
-
-
-
+@section('css')
+    <link rel="stylesheet" href="/css/admin_custom.css">
+    <link rel="stylesheet" href="/css/carreras_index.css">
 @stop

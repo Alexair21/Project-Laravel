@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admision</b>UNT',
+    'logo' => '<b>Admision</b><b>UNT</b>',
     'logo_img' => 'vendor/adminlte/dist/img/logo.png',
     'logo_img_class' => 'brand-image',
     'logo_img_xl' => null,
@@ -66,7 +66,7 @@ return [
 
     'usermenu_enabled' => true,
     'usermenu_header' => true,
-    'usermenu_header_class' => 'bg-primary',
+    'usermenu_header_class' => '',
     'usermenu_image' => true,
     'usermenu_desc' => true,
     'usermenu_profile_url' => false,
@@ -102,9 +102,9 @@ return [
     |
     */
 
-    'classes_auth_card' => 'bg-gradient-dark',
+    'classes_auth_card' => '',
     'classes_auth_header' => '',
-    'classes_auth_body' => 'bg-gradient-dark',
+    'classes_auth_body' => '',
     'classes_auth_footer' => 'text-center',
     'classes_auth_icon' => 'fa-fw text-light',
     'classes_auth_btn' => 'btn-flat btn-light',
@@ -127,9 +127,9 @@ return [
     'classes_content_wrapper' => '',
     'classes_content_header' => '',
     'classes_content' => '',
-    'classes_sidebar' => 'sidebar-dark-primary elevation-4',
+    'classes_sidebar' => 'sidebar-dark elevation-4',
     'classes_sidebar_nav' => '',
-    'classes_topnav' => 'navbar-dark',
+    'classes_topnav' => 'navbar',
     'classes_topnav_nav' => 'navbar-expand',
     'classes_topnav_container' => 'container',
 
@@ -149,10 +149,10 @@ return [
     'sidebar_collapse' => true,
     'sidebar_collapse_auto_size' => false,
     'sidebar_collapse_remember' => false,
-    'sidebar_collapse_remember_no_transition' => true,
+    'sidebar_collapse_remember_no_transition' => false,
     'sidebar_scrollbar_theme' => 'os-theme-light',
     'sidebar_scrollbar_auto_hide' => 'l',
-    'sidebar_nav_accordion' => true,
+    'sidebar_nav_accordion' => false,
     'sidebar_nav_animation_speed' => 300,
 
 
@@ -172,7 +172,7 @@ return [
     'right_sidebar_icon' => 'fas fa-cogs',
     'right_sidebar_theme' => 'dark',
     'right_sidebar_slide' => true,
-    'right_sidebar_push' => true,
+    'right_sidebar_push' => null,
     'right_sidebar_scrollbar_theme' => 'os-theme-light',
     'right_sidebar_scrollbar_auto_hide' => 'l',
 
@@ -233,26 +233,16 @@ return [
             'icon_enabled' => 'fas fa-moon',
             'icon_disabled' => 'fas fa-sun',
             'color_enabled' => 'white',
-            'color_disabled' => 'white',
+            'color_disabled' => 'dark',
         ],
 
-        [
-            'type'         => 'navbar-search',
-            'text'         => 'search',
-            'topnav_right' => true,
-        ],
-        [
-            'type'         => 'fullscreen-widget',
-            'topnav_right' => true,
-        ],
+
 
         // Sidebar items:
         [
             'type' => 'sidebar-menu-search',
             'text' => 'search',
         ],
-
-        //icono para cambiar a modo oscuro  y claro
 
 
 
@@ -292,22 +282,22 @@ return [
         ],
 
 
-        ['header' => 'labels'],
-        [
-            'text'       => 'important',
-            'icon_color' => 'red',
-            'url'        => '#',
-        ],
-        [
-            'text'       => 'warning',
-            'icon_color' => 'yellow',
-            'url'        => '#',
-        ],
-        [
-            'text'       => 'information',
-            'icon_color' => 'cyan',
-            'url'        => '#',
-        ],
+        //['header' => 'labels'],
+        //[
+        //    'text'       => 'important',
+        //    'icon_color' => 'red',
+        //    'url'        => '#',
+       // ],
+       // [
+        //    'text'       => 'warning',
+        //    'icon_color' => 'yellow',
+        //    'url'        => '#',
+        //],
+        //[
+        //    'text'       => 'information',
+        //    'icon_color' => 'cyan',
+        //    'url'        => '#',
+       // ],
     ],
 
     /*
